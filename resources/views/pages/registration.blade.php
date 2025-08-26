@@ -10,7 +10,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8" data-aos="fade-up">
                 <h1 class="display-4 fw-bold mb-4">
-                    Pendaftaran Innoventure 2025
+                    <span style="color: #fff;">Pendaftaran</span> <span style="color: #007bff;">Innoventure</span> <span style="color: #007bff;">2025</span>
                 </h1>
                 <p class="lead">
                     Selamat datang di formulir pendaftaran Innoventure 2025! Ajang kompetisi dan inovasi yang menghadirkan berbagai perlombaan menarik bagi pelajar dan mahasiswa.
@@ -32,14 +32,14 @@
                 <div class="card border-0 shadow-lg">
                     <div class="card-body p-5">
                         <div class="text-center mb-5">
-                            <h2 class="text-primary mb-3">Form Pendaftaran</h2>
+                            <h2 class="mb-3"><span style="color: #000;">Form</span> <span style="color: #007bff;">Pendaftaran</span></h2>
                             <p class="text-muted">Mohon isi formulir ini dengan data yang akurat dan lengkap. Pastikan Anda mengunggah bukti pembayaran sesuai jenis lomba yang dipilih.</p>
                         </div>
                         
                         <!-- Competition Info -->
                         <div class="mb-5">
-                            <h4 class="text-primary mb-4">
-                                <i class="fas fa-trophy me-2"></i> Jenis Kegiatan
+                            <h4 class="mb-4">
+                                <i class="fas fa-trophy me-2" style="color: #007bff;"></i> <span style="color: #000;">Jenis</span> <span style="color: #007bff;">Kegiatan</span>
                             </h4>
                             <div class="row">
                                 <div class="col-md-6 mb-3">
@@ -85,8 +85,8 @@
                             @csrf
                             <!-- Personal Information -->
                             <div class="mb-5">
-                                <h4 class="text-primary mb-4">
-                                    <i class="fas fa-user me-2"></i> Informasi Pribadi
+                                <h4 class="mb-4">
+                                    <i class="fas fa-user me-2" style="color: #007bff;"></i> <span style="color: #000;">Informasi</span> <span style="color: #007bff;">Pribadi</span>
                                 </h4>
                                 
                                 <div class="row">
@@ -114,8 +114,8 @@
 
                             <!-- School/University Information -->
                             <div class="mb-5">
-                                <h4 class="text-primary mb-4">
-                                    <i class="fas fa-school me-2"></i> Informasi Sekolah/Universitas
+                                <h4 class="mb-4">
+                                    <i class="fas fa-school me-2" style="color: #007bff;"></i> <span style="color: #000;">Informasi</span> <span style="color: #007bff;">Sekolah/Universitas</span>
                                 </h4>
                                 
                                 <div class="row">
@@ -148,8 +148,8 @@
 
                             <!-- Competition Category -->
                             <div class="mb-5">
-                                <h4 class="text-primary mb-4">
-                                    <i class="fas fa-trophy me-2"></i> Kategori Lomba
+                                <h4 class="mb-4">
+                                    <i class="fas fa-trophy me-2" style="color: #007bff;"></i> <span style="color: #000;">Kategori</span> <span style="color: #007bff;">Lomba</span>
                                 </h4>
                                 
                                 <div class="mb-3">
@@ -201,8 +201,8 @@
 
                             <!-- Project Information -->
                             <div class="mb-5">
-                                <h4 class="text-primary mb-4">
-                                    <i class="fas fa-lightbulb me-2"></i> Informasi Proyek
+                                <h4 class="mb-4">
+                                    <i class="fas fa-lightbulb me-2" style="color: #007bff;"></i> <span style="color: #000;">Informasi</span> <span style="color: #007bff;">Proyek</span>
                                 </h4>
                                 
                                 <div class="mb-3">
@@ -218,8 +218,8 @@
 
                             <!-- File Uploads -->
                             <div class="mb-5">
-                                <h4 class="text-primary mb-4">
-                                    <i class="fas fa-file-upload me-2"></i> Upload Dokumen
+                                <h4 class="mb-4">
+                                    <i class="fas fa-file-upload me-2" style="color: #007bff;"></i> <span style="color: #000;">Upload</span> <span style="color: #007bff;">Dokumen</span>
                                 </h4>
                                 
                                 <div class="row">
@@ -279,7 +279,7 @@
 <section class="section-padding bg-light">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="display-6 fw-bold text-primary mb-3">Butuh Bantuan?</h2>
+            <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Butuh</span> <span style="color: #007bff;">Bantuan?</span></h2>
             <p class="lead text-muted text-center">Tim kami siap membantu proses pendaftaranmu</p>
         </div>
         

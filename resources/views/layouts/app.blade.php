@@ -7,6 +7,7 @@
     <meta name="description" content="@yield('description', 'Kompetisi inovasi dan kewirausahaan terbesar di Universitas Komputer Indonesia')">
     
     <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -35,11 +36,32 @@
         }
         
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: var(--primary-gray);
             background: var(--bg-light);
             overflow-x: hidden;
+        }
+        
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+        
+        p, span, div, a, button, input, textarea, select {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .btn {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .navbar-brand, .nav-link {
+            font-family: 'Poppins', sans-serif;
         }
         
         .navbar {
@@ -269,6 +291,20 @@
     </style>
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%); z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: opacity 0.5s ease-out;">
+        <div style="text-align: center; color: white;">
+            <img src="{{ asset('image/logofull.png') }}" alt="Innoventure Logo" style="width: 80px; height: 80px; margin-bottom: 20px; animation: bounce 1s ease-in-out infinite;">
+            <div class="dots-loader" style="display: flex; justify-content: center; gap: 8px; margin: 0 auto 30px;">
+                <div style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%; animation: dotBounce 1.4s ease-in-out infinite both; animation-delay: -0.32s;"></div>
+                <div style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%; animation: dotBounce 1.4s ease-in-out infinite both; animation-delay: -0.16s;"></div>
+                <div style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%; animation: dotBounce 1.4s ease-in-out infinite both;"></div>
+            </div>
+            <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 2rem; margin-bottom: 10px; letter-spacing: -0.025em;">Innoventure</h2>
+            <p style="font-family: 'Poppins', sans-serif; color: rgba(255,255,255,0.8); font-size: 1rem;">Loading...</p>
+        </div>
+    </div>
+    
     @include('partials.header')
 
     <main>
@@ -347,6 +383,75 @@
         `;
         document.head.appendChild(style);
         
+        // Splash screen animation
+        const splashStyle = document.createElement('style');
+        splashStyle.textContent = `
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% {
+                    transform: translateY(0);
+                }
+                40% {
+                    transform: translateY(-20px);
+                }
+                60% {
+                    transform: translateY(-10px);
+                }
+            }
+            
+            @keyframes dotBounce {
+                0%, 80%, 100% {
+                    transform: scale(0);
+                }
+                40% {
+                    transform: scale(1);
+                }
+            }
+            
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            
+            #splash-screen h2, #splash-screen p {
+                animation: fadeInUp 0.8s ease-out;
+            }
+            
+            #splash-screen p {
+                animation-delay: 0.2s;
+            }
+        `;
+        document.head.appendChild(splashStyle);
+        
+        // Splash screen handler - only show on first visit
+        window.addEventListener('load', function() {
+            const splashScreen = document.getElementById('splash-screen');
+            const hasVisited = sessionStorage.getItem('hasVisited');
+            
+            if (hasVisited) {
+                // Hide splash immediately if already visited
+                if (splashScreen) {
+                    splashScreen.style.display = 'none';
+                }
+            } else {
+                // Show splash for first visit
+                sessionStorage.setItem('hasVisited', 'true');
+                setTimeout(function() {
+                    if (splashScreen) {
+                        splashScreen.style.opacity = '0';
+                        setTimeout(function() {
+                            splashScreen.style.display = 'none';
+                        }, 500);
+                    }
+                }, 1500);
+            }
+        });
+        
         // Enhanced interactions
         document.addEventListener('DOMContentLoaded', function() {
             // Smooth scroll for anchor links
@@ -411,3 +516,24 @@
     @stack('scripts')
 </body>
 </html>
+<style>
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes bounce {
+    0%, 20%, 53%, 80%, 100% { transform: translate3d(0,0,0); }
+    40%, 43% { transform: translate3d(0,-30px,0); }
+    70% { transform: translate3d(0,-15px,0); }
+    90% { transform: translate3d(0,-4px,0); }
+}
+
+@keyframes ping {
+    75%, 100% { transform: scale(2); opacity: 0; }
+}
+
+.competition-card-modern:hover .floating-bg {
+    transform: translate(64px, -64px) scale(1.5);
+}
+</style>

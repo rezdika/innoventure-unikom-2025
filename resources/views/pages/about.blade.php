@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h2 class="display-6 fw-bold text-primary mb-4">Apa itu Innoventure?</h2>
+                    <h2 class="display-6 fw-bold mb-4"><span style="color: #000;">Apa</span> <span style="color: #007bff;">itu</span> <span style="color: #007bff;">Innoventure?</span></h2>
                     <p class="lead text-muted mb-4">
                         Innoventure Unikom 2025 adalah kompetisi inovasi dan kewirausahaan tahunan yang diselenggarakan oleh
                         Universitas Komputer Indonesia untuk mendorong mahasiswa menciptakan solusi inovatif bagi tantangan
@@ -96,7 +96,7 @@
                                     style="width: 80px; height: 80px;">
                                     <i class="fas fa-eye text-white fs-2"></i>
                                 </div>
-                                <h3 class="fw-bold text-primary">Visi</h3>
+                                <h3 class="fw-bold" style="color: #000;">Visi</h3>
                             </div>
                             <p class="text-center text-muted fs-5 lh-lg">
                                 Menjadi platform terdepan dalam mengembangkan ekosistem inovasi dan kewirausahaan
@@ -116,7 +116,7 @@
                                     style="width: 80px; height: 80px;">
                                     <i class="fas fa-bullseye text-success fs-2"></i>
                                 </div>
-                                <h3 class="fw-bold text-success">Misi</h3>
+                                <h3 class="fw-bold" style="color: #000;">Misi</h3>
                             </div>
                             <ul class="list-unstyled">
                                 <li class="mb-3 d-flex align-items-start">
@@ -144,23 +144,23 @@
 
             <!-- Logo Philosophy Section -->
             <div class="row mb-5">
-                <div class="col-12" data-aos="fade-up">
+                <div class="col-12">
                     <div class="text-center mb-5">
-                        <h2 class="display-6 fw-bold text-primary mb-3">Filosofi Logo</h2>
+                        <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Filosofi</span> <span style="color: #007bff;">Logo</span></h2>
                         <p class="lead text-muted text-center">Makna mendalam di balik setiap elemen logo Innoventure Unikom 2025</p>
                     </div>
 
                     <!-- Philosophy 1 - Arrow -->
                     <div class="row align-items-center mb-5">
-                        <div class="col-lg-6" data-aos="fade-right">
+                        <div class="col-lg-6">
                             <div class="text-center">
                                 <img src="{{ asset('image/potongan1.png') }}" class="img-fluid logo-shadow"
                                     style="max-height: 400px; object-fit: cover;" alt="Logo Philosophy 1">
                             </div>
                         </div>
-                        <div class="col-lg-6" data-aos="fade-left">
+                        <div class="col-lg-6">
                             <div class="ps-lg-4">
-                                <h3 class="fw-bold text-primary mb-4"> Simbol Panah ke Atas</h3>
+                                <h3 class="fw-bold mb-4"><span style="color: #000;">Simbol</span> <span style="color: #007bff;">Panah</span> <span style="color: #007bff;">ke</span> <span style="color: #007bff;">Atas</span></h3>
                                 <p class="text-muted lh-lg">
                                     Simbol panah yang mengarah ke atas dalam logo INNOVENTURE bukan sekadar bentuk geometris
                                     sederhana, melainkan sebuah representasi dari tekad, visi, dan dorongan untuk selalu
@@ -182,15 +182,15 @@
 
                     <!-- Philosophy 2 - Circuit -->
                     <div class="row align-items-center">
-                        <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                        <div class="col-lg-6 order-lg-2">
                             <div class="text-center">
                                 <img src="{{ asset('image/potongan2.png') }}" class="img-fluid logo-shadow"
                                     style="max-height: 400px; object-fit: cover;" alt="Logo Philosophy 2">
                             </div>
                         </div>
-                        <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                        <div class="col-lg-6 order-lg-1">
                             <div class="pe-lg-4">
-                                <h3 class="fw-bold text-primary mb-4">Jalur Sirkuit Digital</h3>
+                                <h3 class="fw-bold mb-4"><span style="color: #000;">Jalur</span> <span style="color: #007bff;">Sirkuit</span> <span style="color: #007bff;">Digital</span></h3>
                                 <p class="text-muted lh-lg">
                                     Sementara itu, jalur sirkuit yang hadir dalam logo menjadi simbol kuat dari era digital
                                     yang serba terkoneksi. Setiap garis yang terhubung tidak hanya menggambarkan jaringan
@@ -202,7 +202,7 @@
                                     ekosistem inovasi yang dinamis, di mana setiap orang memiliki kesempatan untuk
                                     berkontribusi. Dengan jalur ini, logo INNOVENTURE menyuarakan identitas sebuah dunia
                                     yang tidak lagi berdiri sendiri, melainkan terhubung, responsif, dan berkembang bersama.
-                                    Ia menegaskan bahwa kekuatan utama di balik teknologi bukan hanya mesin, melainkan
+                                  Ia menegaskan bahwa kekuatan utama di balik teknologi bukan hanya mesin, melainkan
                                     keterhubungan ide-ide yang saling menguatkan, menciptakan peluang tanpa batas bagi
                                     generasi yang berani berinovasi.
                                 </p>
@@ -211,8 +211,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
     </section>
 
     <!-- BEM Structure Section -->
@@ -232,7 +230,7 @@
                 <!-- Left Side - Title -->
                 <div class="col-lg-6">
                     <div class="ps-5">
-                        <h1 class="display-1 fw-bold text-white mb-3 bem-main-title" style="font-size: 4.5rem; line-height: 1;">STRUKTUR BEM</h1>
+                        <h1 class="display-1 fw-bold text-white mb-3 bem-main-title" style="font-size: 4.5rem; line-height: 1;"><span style="color: #fff;">STRUKTUR</span> <span style="color: #007bff;">BEM</span></h1>
                         <p class="text-white opacity-75 fs-5 mb-4 bem-subtitle-1">Badan Eksekutif Mahasiswa</p>
                         <p class="text-white opacity-75 fs-5 bem-subtitle-2">Innoventure Unikom 2025</p>
                         
@@ -338,7 +336,7 @@
 <section class="section-padding bg-light">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="display-6 fw-bold text-primary mb-3">Benefit Yang Didapat</h2>
+            <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Benefit</span> <span style="color: #007bff;">Yang</span> <span style="color: #007bff;">Didapat</span></h2>
             <p class="lead text-muted text-center">Keuntungan luar biasa menanti para peserta Innoventure Unikom 2025</p>
         </div>
         
@@ -480,7 +478,7 @@
 <section class="py-5 bg-light overflow-hidden">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="display-6 fw-bold text-primary mb-3">Didukung Oleh</h2>
+            <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Didukung</span> <span style="color: #007bff;">Oleh</span></h2>
             <p class="lead text-muted text-center">Partner dan sponsor yang mendukung ekosistem inovasi</p>
         </div>
         

@@ -10,7 +10,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8" data-aos="fade-up">
                 <h1 class="display-4 fw-bold mb-4">
-                    Frequently Asked Questions
+                    <span style="color: #fff;">Frequently Asked Questions</span>
                 </h1>
                 <p class="lead">
                     Temukan jawaban untuk pertanyaan yang sering diajukan tentang Innoventure Unikom 2025
@@ -158,7 +158,7 @@
 <section class="section-padding bg-light">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="display-6 fw-bold text-primary mb-3 ">Masih Ada Pertanyaan?</h2>
+            <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Masih</span> <span style="color: #007bff;">Ada</span> <span style="color: #007bff;">Pertanyaan?</span></h2>
             <p class="lead text-muted text-center">Tim kami siap membantu menjawab pertanyaanmu</p>
         </div>
         
@@ -221,7 +221,7 @@
 <section class="section-padding">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="display-6 fw-bold text-primary mb-3">Tips Sukses</h2>
+            <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Tips</span> <span style="color: #007bff;">Sukses</span></h2>
             <p class="lead text-muted text-center">Beberapa tips untuk memaksimalkan peluang menangmu</p>
         </div>
         

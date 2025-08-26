@@ -36,7 +36,7 @@
             
             <div class="d-flex align-items-center">
                 <a class="btn btn-primary px-4 py-2" href="{{ route('registration') }}">
-                    <i class="fas fa-rocket me-2"></i>Daftar
+                    <img src="{{ asset('image/logofull.png') }}" alt="" style="height: 30px;" class="me-2">Daftar
                 </a>
             </div>
         </div>

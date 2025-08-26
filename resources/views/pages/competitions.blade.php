@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8" data-aos="fade-up">
                     <h1 class="display-4 fw-bold mb-4">
-                        Kategori Lomba
+                        <span style="color: #fff;">Kategori Lomba</span>
                     </h1>
                     <p class="lead">
                         Empat kategori kompetisi dengan fokus berbeda untuk mengembangkan potensi inovasimu
@@ -22,13 +22,13 @@
 
     <!-- Competition Categories -->
     <section class="section-padding"
-        style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%); position: relative; overflow: hidden;">
+        style=" position: relative; overflow: hidden;">
         <!-- Background Decorations -->
         <div class="position-absolute"
-            style="top: -50px; right: -50px; width: 200px; height: 200px; background: linear-gradient(45deg, rgba(59,130,246,0.1), rgba(147,51,234,0.1)); border-radius: 50%; filter: blur(40px);">
+            style="top: -50px; right: -50px; width: 200px; height: 200px; border-radius: 50%; ">
         </div>
         <div class="position-absolute"
-            style="bottom: -100px; left: -100px; width: 300px; height: 300px; background: linear-gradient(45deg, rgba(16,185,129,0.1), rgba(6,182,212,0.1)); border-radius: 50%; filter: blur(60px);">
+            style="bottom: -100px; left: -100px; width: 300px; height: 300px; border-radius: 50%; ">
         </div>
 
         <div class="container position-relative">
@@ -48,32 +48,25 @@
             </div>
             
             <!-- Featured Competition Banner -->
-            <div class="featured-competition mb-5" style="background: linear-gradient(135deg, rgba(59,130,246,0.9), rgba(147,51,234,0.8)), url('{{ asset('image/banner.png') }}'); background-size: cover; background-position: center; border-radius: 20px; padding: 50px 40px; color: white; position: relative; overflow: hidden;">
-                <div class="position-absolute top-4 start-4">
-                    <span class="badge px-3 py-2" style="background: rgba(255,193,7,0.9); color: #1e293b; font-size: 0.8rem; font-weight: 700; border-radius: 20px;">
-                        <i class="fas fa-star me-1"></i>FEATURED COMPETITION
-                    </span>
-                </div>
+            <div class="featured-competition mb-5" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ asset('image/banner.png') }}'); background-size: cover; background-position: center; border-radius: 20px; padding: 50px 40px; color: white; position: relative; overflow: hidden;">
+               
                 <div class="row align-items-center" style="margin-top: 20px;">
                     <div class="col-lg-8">
                         <h2 class="display-6 fw-bold mb-3" style="color: white; margin-top: 10px;">Innoventure Unikom 2025</h2>
-                        <p class="lead mb-4" style="color: rgba(255,255,255,0.9); font-size: 1.1rem; line-height: 1.5;">Submit your groundbreaking ideas and solutions to innovation challenges. Win up to Rp 15.000.000 and get mentorship from industry leaders.</p>
-                        <button class="btn btn-light px-4 py-2" style="border-radius: 25px; font-weight: 600; color: #1e293b;">
-                            Learn More
-                        </button>
+                        <p class="lead mb-4" style="color: rgba(255,255,255,0.9); font-size: 1.1rem; line-height: 1.5;">Submit your groundbreaking ideas and solutions to innovation challenges. Win up to Rp 10.000.000 and get mentorship from industry leaders.</p>
                     </div>
                 </div>
             </div>
             
             <div class="text-center mb-5">
-                <h2 class="display-6 fw-bold mb-3" style="color: #1e293b;">Kategori Kompetisi</h2>
+                <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Kategori</span> <span style="color: #007bff;">Kompetisi</span></h2>
                 <p class="lead text-muted text-center">Pilih kategori yang sesuai dengan passion dan keahlianmu</p>
             </div>
             
             <!-- Competition Cards Grid -->
             <div class="row g-4 mb-5 justify-content-center">
                 @foreach($competitions as $index => $competition)
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-6">
                     <div class="competition-card cursor-pointer h-100" onclick="showCompetitionDetail({{ $index }})" id="card-{{ $index }}"
                         style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; border: 1px solid rgba(0,0,0,0.05); position: relative; display: flex; flex-direction: column;"
                         onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 40px rgba(0,0,0,0.15)'"
@@ -81,8 +74,19 @@
                         
                         <!-- Competition Image -->
                         <div class="position-relative" style="height: 220px; overflow: hidden; flex-shrink: 0;">
-                            <img src="{{ asset('image/programming.jpg') }}" alt="{{ $competition['name'] }}" 
-                                style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                            @if($index == 0)
+                                <img src="{{ asset('image/bannerweb.png') }}" alt="{{ $competition['name'] }}" 
+                                    style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                            @elseif($index == 1)
+                                <img src="{{ asset('image/bannerlogo.png') }}" alt="{{ $competition['name'] }}" 
+                                    style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                            @elseif($index == 2)
+                                <img src="{{ asset('image/bannerctf.png') }}" alt="{{ $competition['name'] }}" 
+                                    style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                            @else
+                                <img src="{{ asset('image/bannermlbb.png') }}" alt="{{ $competition['name'] }}" 
+                                    style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                            @endif
                             <div class="position-absolute top-0 start-0 w-100 h-100" 
                                 style="background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(59,130,246,0.05));"></div>
                             
@@ -133,11 +137,11 @@
                             
                             <!-- Action Button -->
                             <div class="mt-auto">
-                                <button class="btn btn-primary w-100" style="background: #3b82f6; border: none; border-radius: 8px; padding: 12px; font-weight: 600; font-size: 0.9rem; transition: all 0.3s ease;"
+                                <a href="{{ route('competition.details', $index + 1) }}" class="btn btn-primary w-100" style="background: #3b82f6; border: none; border-radius: 8px; padding: 12px; font-weight: 600; font-size: 0.9rem; transition: all 0.3s ease; text-decoration: none;"
                                     onmouseover="this.style.background='#2563eb'; this.style.transform='translateY(-1px)'"
                                     onmouseout="this.style.background='#3b82f6'; this.style.transform='translateY(0)'">
                                     View Details
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -145,19 +149,7 @@
                 @endforeach
             </div>
             
-            <!-- Ready to Showcase Section -->
-            <div class="text-center p-5" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-radius: 20px;">
-                <h3 class="fw-bold mb-3" style="color: #1e293b;">Ready to showcase your talent?</h3>
-                <p class="text-muted mb-4 text-center">Create an account to participate in competitions and track your submissions.</p>
-                <div class="d-flex gap-3 justify-content-center">
-                    <a href="{{ route('registration') }}" class="btn btn-primary px-4 py-2" style="background: #3b82f6; border: none; border-radius: 8px; font-weight: 600;">
-                        Sign Up Now
-                    </a>
-                    <button class="btn btn-outline-primary px-4 py-2" style="border: 2px solid #3b82f6; color: #3b82f6; border-radius: 8px; font-weight: 600; background: transparent;">
-                        Learn More
-                    </button>
-                </div>
-            </div>
+    
             
             <!-- Competition Detail Modal/Section -->
             <div class="row mt-5" id="detail-section" style="display: none;">
@@ -535,7 +527,7 @@
     @endpush
 
     <!-- Competition Rules Section -->
-    <section class="section-padding bg-dark text-white">
+    <section class="section-padding bg-primary text-white">
         <div class="container">
             <div class="container">
                 <div class="text-center mb-5" data-aos="fade-up">
@@ -773,6 +765,8 @@
             </div>
         </div>
     </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0f172a" fill-opacity="1" d="M0,96L0,224L110.8,224L110.8,288L221.5,288L221.5,192L332.3,192L332.3,224L443.1,224L443.1,160L553.8,160L553.8,96L664.6,96L664.6,192L775.4,192L775.4,128L886.2,128L886.2,288L996.9,288L996.9,320L1107.7,320L1107.7,64L1218.5,64L1218.5,256L1329.2,256L1329.2,32L1440,32L1440,0L1329.2,0L1329.2,0L1218.5,0L1218.5,0L1107.7,0L1107.7,0L996.9,0L996.9,0L886.2,0L886.2,0L775.4,0L775.4,0L664.6,0L664.6,0L553.8,0L553.8,0L443.1,0L443.1,0L332.3,0L332.3,0L221.5,0L221.5,0L110.8,0L110.8,0L0,0L0,0Z"></path></svg>
 
     <!-- section persyaratan -->
     <section class="section p-5 bg-light">

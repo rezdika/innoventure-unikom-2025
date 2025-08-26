@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RegistrationController;
+use App\Http\Controllers\CompetitionController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/tentang', [HomeController::class, 'about'])->name('about');
@@ -13,3 +14,4 @@ Route::post('/daftar', [RegistrationController::class, 'store'])->name('registra
 Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/kontak', [HomeController::class, 'contact'])->name('contact');
 Route::post('/kontak', [HomeController::class, 'contactStore'])->name('contact.store');
+Route::get('/lomba/{id}', [CompetitionController::class, 'show'])->name('competition.details');

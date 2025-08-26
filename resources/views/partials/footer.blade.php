@@ -1,4 +1,4 @@
-<footer class="bg-primary text-white py-5 mt-5">
+<footer class="text-white py-5 mt-5" style="background: #1e293b;">
     <div class="container">
         <div class="row">
             <!-- Brand Section -->

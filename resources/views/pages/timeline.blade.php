@@ -10,7 +10,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h1 class="display-4 fw-bold mb-4">
-                    Timeline Kompetisi
+                    <span style="color: #fff;">Timeline Kompetisi</span>
                 </h1>
                 <p class="lead">
                     Jadwal lengkap Innoventure Unikom 2025 dari pendaftaran hingga awarding ceremony
@@ -287,7 +287,7 @@
 <section class="section-padding bg-light">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-6 fw-bold text-primary mb-3">Tanggal Penting</h2>
+            <h2 class="display-6 fw-bold mb-3"><span style="color: #000;">Tanggal</span> <span style="color: #007bff;">Penting</span></h2>
             <p class="lead text-muted text-center">Catat dan jangan sampai terlewat!</p>
         </div>
         
@@ -348,7 +348,7 @@
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <h2 class="display-5 fw-bold mb-4">Hitung Mundur Pendaftaran</h2>
+                <h2 class="display-5 fw-bold mb-4"><span style="color: #fff;">Hitung</span> <span style="color: #007bff;">Mundur</span> <span style="color: #007bff;">Pendaftaran</span></h2>
                 <p class="lead mb-5 text-center">Jangan sampai terlewat! Daftarkan dirimu sebelum terlambat.</p>
                 
                 <div class="row justify-content-center mb-5">
@@ -378,7 +378,7 @@
                     </div>
                 </div>
                 
-                <a href="{{ route('registration') }}" class="btn btn-warning btn-lg px-5 py-3 rounded-pill">
+                <a href="{{ route('registration') }}" class="btn btn-primary btn-lg px-5 py-3 rounded-pill">
                     <i class="fas fa-rocket me-2"></i> Daftar Sekarang
                 </a>
             </div>

@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8" data-aos="fade-up">
                     <h1 class="display-4 fw-bold mb-4">
-                        Hubungi Kami
+                        <span style="color: #fff;">Hubungi Kami</span>
                     </h1>
                     <p class="lead">
                         Tim kami siap membantu menjawab pertanyaan dan memberikan dukungan yang kamu butuhkan
@@ -28,8 +28,8 @@
                 <div class="col-lg-8 mb-5" data-aos="fade-right">
                     <div class="card border-0 shadow-lg">
                         <div class="card-body p-5">
-                            <h2 class="text-primary mb-4">
-                                <i class="fas fa-paper-plane me-2"></i> Kirim Pesan
+                            <h2 class="mb-4">
+                                <i class="fas fa-paper-plane me-2" style="color: #007bff;"></i> <span style="color: #000;">Kirim</span> <span style="color: #007bff;">Pesan</span>
                             </h2>
                             <p class="text-muted mb-4">
                                 Isi form di bawah ini dan kami akan merespon dalam 24 jam
@@ -95,8 +95,8 @@
                         <!-- Office Info -->
                         <div class="card border-0 shadow-sm mb-4">
                             <div class="card-body p-4">
-                                <h5 class="text-primary mb-4">
-                                    <i class="fas fa-building me-2"></i> Informasi Kantor
+                                <h5 class="mb-4">
+                                    <i class="fas fa-building me-2" style="color: #007bff;"></i> <span style="color: #000;">Informasi</span> <span style="color: #007bff;">Kantor</span>
                                 </h5>
 
                                 <div class="d-flex align-items-start mb-3">
@@ -146,8 +146,8 @@
                         <!-- Office Hours -->
                         <div class="card border-0 shadow-sm mb-4">
                             <div class="card-body p-4">
-                                <h5 class="text-primary mb-4">
-                                    <i class="fas fa-clock me-2"></i> Jam Operasional
+                                <h5 class="mb-4">
+                                    <i class="fas fa-clock me-2" style="color: #007bff;"></i> <span style="color: #000;">Jam</span> <span style="color: #007bff;">Operasional</span>
                                 </h5>
 
                                 <div class="d-flex justify-content-between mb-2">
@@ -174,8 +174,8 @@
                         <!-- Social Media -->
                         <div class="card border-0 shadow-sm">
                             <div class="card-body p-4">
-                                <h5 class="text-primary mb-4">
-                                    <i class="fas fa-share-alt me-2"></i> Ikuti Kami
+                                <h5 class="mb-4">
+                                    <i class="fas fa-share-alt me-2" style="color: #007bff;"></i> <span style="color: #000;">Ikuti</span> <span style="color: #007bff;">Kami</span>
                                 </h5>
 
                                 <div class="d-flex gap-3">
@@ -214,8 +214,8 @@
             <div class="row g-0">
                 <div class="col-12">
                     <div class="bg-light p-4 text-center">
-                        <h3 class="text-primary mb-3">
-                            <i class="fas fa-map-marked-alt me-2"></i> Lokasi Kami
+                        <h3 class="mb-3">
+                            <i class="fas fa-map-marked-alt me-2" style="color: #007bff;"></i> <span style="color: #000;">Lokasi</span> <span style="color: #007bff;">Kami</span>
                         </h3>
                         <p class="text-muted mb-4 text-center">Universitas Komputer Indonesia, Bandung</p>
 
@@ -241,7 +241,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8" data-aos="fade-right">
-                    <h2 class="display-6 fw-bold mb-3">Butuh Bantuan Cepat?</h2>
+                    <h2 class="display-6 fw-bold mb-3"><span style="color: #fff;">Butuh</span> <span style="color: #007bff;">Bantuan</span> <span style="color: #007bff;">Cepat?</span></h2>
                     <p class="lead mb-4">
                         Tim support kami siap membantu melalui WhatsApp untuk respon yang lebih cepat
                     </p>
