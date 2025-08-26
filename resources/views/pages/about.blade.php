@@ -214,7 +214,7 @@
     </section>
 
     <!-- BEM Structure Section -->
-    <section id="bemSection" class="bem-gallery-section" style="background-image: url('{{ asset('image/backgroundbem.jpg') }}'); background-size: cover; background-position: center center; background-repeat: no-repeat; transition: background-image 0.5s ease; position: relative; height: 100vh; overflow: hidden;">
+    <section id="bemSection" class="bem-gallery-section" style="background-image: url('{{ asset('image/backgroundstructure.png') }}'); background-size: cover; background-position: center center; background-repeat: no-repeat; transition: background-image 0.5s ease; position: relative; height: 100vh; overflow: hidden; clip-path: polygon(0 0, 100% 0, 100% 85%, 95% 90%, 85% 95%, 70% 98%, 50% 100%, 30% 98%, 15% 95%, 5% 90%, 0 85%);">
         <div class="bem-overlay" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.85), rgba(30, 41, 59, 0.75)); position: absolute; top: 0; left: 0; right: 0; bottom: 0; transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);"></div>
         
         <!-- Animated Background Elements -->
@@ -330,7 +330,7 @@
             </div>
         </div>
     </section>
-
+    
 
 <!-- Benefit Section -->
 <section class="section-padding bg-light">

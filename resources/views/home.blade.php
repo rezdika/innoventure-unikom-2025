@@ -8,7 +8,43 @@
 <section class="hero-section-modern" style="background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('{{ asset('image/banner.png') }}'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden;">
     <div class="container position-relative" style="z-index: 2;">
         <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <!-- Mobile: Text First -->
+            <div class="col-12 d-lg-none order-1 text-center mb-4" data-aos="fade-down" data-aos-delay="200">
+                <div class="hero-content-modern">
+                    <div class="mb-4">
+                        <span class="badge" style="background: linear-gradient(135deg, #3b82f6, #8b5cf6); color: white; padding: 8px 16px; border-radius: 20px; font-weight: 500; font-size: 0.85rem;">
+                            <i class="fas fa-calendar-alt me-2"></i>18-30 Agustus 2025
+                        </span>
+                    </div>
+                    
+                    <h1 class="hero-title-modern mb-4" style="font-size: 3rem; font-weight: 900; color: #0f172a; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 24px;">
+                        INNOVENTURE
+                    </h1>
+                    
+                    <p class="hero-subtitle mb-4 text-justify" style="font-size: 1.1rem; color: #64748b; line-height: 1.6; text-align: justify;">
+                        Kompetisi teknologi dan kreativitas terbesar untuk siswa SMA/SMK dan mahasiswa dengan total hadiah <strong style="color: #3b82f6;">10 juta rupiah</strong>.
+                    </p>
+                    
+                    <div class="hero-cta mb-4">
+                        <a href="{{ route('registration') }}" class="btn btn-primary-modern" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 16px 32px; border-radius: 16px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3); transition: all 0.3s ease;">
+                            Daftar Sekarang
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile: Logo Second -->
+            <div class="col-12 d-lg-none order-2 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="hero-visual-modern position-relative">
+                    <div class="main-visual">
+                        <img src="{{ asset('image/logofull.png') }}" class="img-fluid" style="max-width: 280px; filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.15));" alt="Innoventure Unikom 2025">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Desktop: Original Layout -->
+            <div class="col-lg-6 d-none d-lg-block" data-aos="fade-right" data-aos-delay="200">
                 <div class="hero-content-modern">
                     <div class="mb-4">
                         <span class="badge" style="background: linear-gradient(135deg, #3b82f6, #8b5cf6); color: white; padding: 8px 16px; border-radius: 20px; font-weight: 500; font-size: 0.85rem;">
@@ -30,20 +66,14 @@
                             <i class="fas fa-arrow-right ms-2"></i>
                         </a>
                     </div>
-                    
-                    <!-- Feature Icons -->
-                   
                 </div>
             </div>
             
-            <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-delay="400">
+            <div class="col-lg-6 d-none d-lg-block text-center" data-aos="fade-left" data-aos-delay="400">
                 <div class="hero-visual-modern position-relative">
-                    <!-- Logo/Plant Image -->
                     <div class="main-visual">
                         <img src="{{ asset('image/logofull.png') }}" class="img-fluid" style="max-width: 350px; filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.15));" alt="Innoventure Unikom 2025">
                     </div>
-                 
-                
                 </div>
             </div>
         </div>

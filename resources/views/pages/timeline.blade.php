@@ -325,7 +325,7 @@
             <div class="col-lg-4 mb-4">
                 <div class="card border-0 shadow-sm text-center h-100">
                     <div class="card-body p-4">
-                        <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                        <div class=" bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
                             <i class="fas fa-trophy text-primary fs-2"></i>
                         </div>
                         <h4 class="card-title text-primary mb-3">Seminar & Awarding</h4>
