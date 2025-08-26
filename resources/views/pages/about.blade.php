@@ -247,7 +247,7 @@
                     <div class="pe-5" style="overflow: visible;">
                         <div class="bem-cards-container" style="overflow: visible;">
                             <div class="bem-cards-scroll" id="cardsContainer" style="overflow-x: auto; overflow-y: visible; padding: 20px 10px;">
-                                <div class="bem-card-item bem-card-1" data-bg="{{ asset('image/bgshni.jpg') }}" data-role="Ketua BEM" data-desc="Memimpin dan mengkoordinasi seluruh kegiatan organisasi, bertanggung jawab atas visi dan misi BEM serta mengambil keputusan strategis untuk kemajuan organisasi.">
+                                <div class="bem-card-item bem-card-1" data-bg="{{ asset('image/bannerbem2.jpg') }}" data-role="Ketua BEM" data-desc="Memimpin dan mengkoordinasi seluruh kegiatan organisasi, bertanggung jawab atas visi dan misi BEM serta mengambil keputusan strategis untuk kemajuan organisasi.">
                                     <div class="bem-card">
                                         <img src="{{ asset('image/shani.png') }}" class="bem-card-image" alt="Ketua BEM">
                                         <div class="bem-card-content">
@@ -257,7 +257,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="bem-card-item bem-card-2" data-bg="{{ asset('image/bgmrsha.jpg') }}" data-role="Wakil Ketua" data-desc="Mendampingi ketua dalam menjalankan program kerja, mengkoordinasi divisi-divisi, dan menggantikan ketua saat berhalangan.">
+                                <div class="bem-card-item bem-card-2" data-bg="{{ asset('image/bannerbem2.jpg') }}" data-role="Wakil Ketua" data-desc="Mendampingi ketua dalam menjalankan program kerja, mengkoordinasi divisi-divisi, dan menggantikan ketua saat berhalangan.">
                                     <div class="bem-card">
                                         <img src="{{ asset('image/marsha.png') }}" class="bem-card-image" alt="Wakil Ketua">
                                         <div class="bem-card-content">
@@ -267,7 +267,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="bem-card-item bem-card-3" data-bg="{{ asset('image/bgshni.jpg') }}" data-role="Sekretaris" data-desc="Mengelola administrasi, dokumentasi, surat-menyurat, dan notulensi rapat serta mengatur jadwal kegiatan organisasi.">
+                                <div class="bem-card-item bem-card-3" data-bg="{{ asset('image/bannerbem2.jpg') }}" data-role="Sekretaris" data-desc="Mengelola administrasi, dokumentasi, surat-menyurat, dan notulensi rapat serta mengatur jadwal kegiatan organisasi.">
                                     <div class="bem-card">
                                         <img src="{{ asset('image/shani.png') }}" class="bem-card-image" alt="Sekretaris">
                                         <div class="bem-card-content">
@@ -277,7 +277,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="bem-card-item bem-card-4" data-bg="{{ asset('image/bgmrsha.jpg') }}" data-role="Bendahara" data-desc="Mengelola keuangan, anggaran, pertanggungjawaban keuangan, dan mengawasi penggunaan dana organisasi.">
+                                <div class="bem-card-item bem-card-4" data-bg="{{ asset('image/bannerbem2.jpg') }}" data-role="Bendahara" data-desc="Mengelola keuangan, anggaran, pertanggungjawaban keuangan, dan mengawasi penggunaan dana organisasi.">
                                     <div class="bem-card">
                                         <img src="{{ asset('image/marsha.png') }}" class="bem-card-image" alt="Bendahara">
                                         <div class="bem-card-content">
@@ -287,7 +287,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="bem-card-item bem-card-5" data-bg="{{ asset('image/bgshni.jpg') }}" data-role="Koordinator" data-desc="Mengatur dan mengelola seluruh acara, kegiatan, dan event yang diselenggarakan oleh organisasi.">
+                                <div class="bem-card-item bem-card-5" data-bg="{{ asset('image/bannerbem2.jpg') }}" data-role="Koordinator" data-desc="Mengatur dan mengelola seluruh acara, kegiatan, dan event yang diselenggarakan oleh organisasi.">
                                     <div class="bem-card">
                                         <img src="{{ asset('image/shani.png') }}" class="bem-card-image" alt="Koordinator">
                                         <div class="bem-card-content">
@@ -297,7 +297,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="bem-card-item bem-card-6" data-bg="{{ asset('image/bgmrsha.jpg') }}" data-role="Humas" data-desc="Menjalin hubungan dengan pihak eksternal, mengelola komunikasi publik, dan membangun networking organisasi.">
+                                <div class="bem-card-item bem-card-6" data-bg="{{ asset('image/bannerbem2.jpg') }}" data-role="Humas" data-desc="Menjalin hubungan dengan pihak eksternal, mengelola komunikasi publik, dan membangun networking organisasi.">
                                     <div class="bem-card">
                                         <img src="{{ asset('image/marsha.png') }}" class="bem-card-image" alt="Humas">
                                         <div class="bem-card-content">

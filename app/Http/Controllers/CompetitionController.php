@@ -43,7 +43,7 @@ class CompetitionController extends Controller
                     ['position' => 'Juara 3', 'amount' => 'Rp 500.000']
                 ],
 
-                'image' => 'programming.jpg'
+                'image' => 'bannerweb.png'
             ],
             2 => [
                 'id' => 2,
@@ -77,7 +77,7 @@ class CompetitionController extends Controller
                     ['position' => 'Juara 2', 'amount' => 'Rp 1.000.000'],
                     ['position' => 'Juara 3', 'amount' => 'Rp 500.000']
                 ],
-                'image' => 'logodesign.jpg'
+                'image' => 'bannerlogo.png'
             ],
             3 => [
                 'id' => 3,
@@ -111,7 +111,7 @@ class CompetitionController extends Controller
                     ['position' => 'Juara 2', 'amount' => 'Rp 1.000.000'],
                     ['position' => 'Juara 3', 'amount' => 'Rp 500.000']
                 ],
-                'image' => 'cyber.jpg'
+                'image' => 'bannerctf.png'
             ],
             4 => [
                 'id' => 4,
@@ -145,7 +145,7 @@ class CompetitionController extends Controller
                     ['position' => 'Juara 2', 'amount' => 'Rp 1.000.000'],
                     ['position' => 'Juara 3', 'amount' => 'Rp 500.000']
                 ],
-                'image' => 'mobilelegends.jpg'
+                'image' => 'bannermlbb.png'
             ]
         ];
 
