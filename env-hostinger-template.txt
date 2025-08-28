@@ -1,0 +1,27 @@
+// Environment Variables untuk Hostinger MySQL
+// Copy dari hPanel Database section
+
+APP_NAME=Innoventure Unikom 2025
+APP_ENV=production
+APP_KEY=base64:DN8uGcuNmL+emp9GCb2EPzswsPydfejccdSSCsXXB6A=
+APP_DEBUG=false
+APP_URL=https://your-app-name.vercel.app
+
+// Database - Hostinger MySQL
+DB_CONNECTION=mysql
+DB_HOST=srv1105.hstgr.io
+DB_PORT=3306
+DB_DATABASE=u574849177_your_database_name
+DB_USERNAME=u574849177_your_username
+DB_PASSWORD=your_hostinger_password
+
+// Session & Cache
+SESSION_DRIVER=database
+CACHE_DRIVER=database
+QUEUE_CONNECTION=database
+LOG_CHANNEL=stderr
+
+// Mail
+MAIL_MAILER=log
+MAIL_FROM_ADDRESS=hello@innoventure.com
+MAIL_FROM_NAME=Innoventure Unikom 2025

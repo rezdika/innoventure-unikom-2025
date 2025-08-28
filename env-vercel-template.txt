@@ -1,0 +1,27 @@
+// Copy paste ini ke Vercel Environment Variables
+// Satu per satu, Name = Value
+
+APP_NAME=Innoventure Unikom 2025
+APP_ENV=production
+APP_KEY=base64:DN8uGcuNmL+emp9GCb2EPzswsPydfejccdSSCsXXB6A=
+APP_DEBUG=false
+APP_URL=https://your-app-name.vercel.app
+
+// Database - Railway MySQL (GRATIS)
+DB_CONNECTION=mysql
+DB_HOST=containers-us-west-xxx.railway.app
+DB_PORT=6543
+DB_DATABASE=railway
+DB_USERNAME=root
+DB_PASSWORD=your-railway-password
+
+// Session & Cache
+SESSION_DRIVER=cookie
+CACHE_DRIVER=array
+QUEUE_CONNECTION=sync
+LOG_CHANNEL=stderr
+
+// Mail
+MAIL_MAILER=log
+MAIL_FROM_ADDRESS=hello@innoventure.com
+MAIL_FROM_NAME=Innoventure Unikom 2025
