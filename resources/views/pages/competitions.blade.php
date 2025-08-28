@@ -5,7 +5,7 @@
 
 @section('content')
     <!-- Page Header -->
-    <section class="page-header text-center">
+    <section class="page-header text-center " style="background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url(asset('image/banner.png'));">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8" data-aos="fade-up">

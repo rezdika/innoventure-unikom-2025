@@ -7,7 +7,7 @@
 <!-- Page Header -->
 <section class="page-header text-center">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url(asset('image/banner.png'));">
             <div class="col-lg-8">
                 <h1 class="display-4 fw-bold mb-4">
                     <span style="color: #fff;">Timeline Kompetisi</span>
